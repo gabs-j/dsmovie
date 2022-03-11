@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
+    --texto-cinza: #4A4A4A;
     --cinza: #ddd;
     --color-primary: #4D41C0;
     --branco: #fff;
 }
 
 * {
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -55,4 +57,46 @@ nav a {
 
 .dsmovie-contact-container img {
     margin-right: 10px;
+}
+
+.dsmovie-card {
+    width: 360px;
+    height: 400px;
+}
+
+.dsmovie-card img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+#dsmovie-card-list {
+    padding: 40px 0;  /* espaçamento interno - em cima e em baixo */
+}
+
+.dsmovie-card-description {
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.dsmovie-btn {
+    width: 180px;
+    height: 40px;
+    background-color:  var(--color-primary);
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
