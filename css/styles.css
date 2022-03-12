@@ -69,7 +69,7 @@ nav a {
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;  /* espaçamento interno - em cima e em baixo */
+    padding: 40px 0;  /* padding com 2 valores: espaçamento interno em cima e em baixo */
 }
 
 .dsmovie-card-description {
@@ -102,3 +102,8 @@ nav a {
     justify-content: center;
     border-radius: 4px;
 }
+
+.dsmovie-form-container {
+    padding: 40px 0;   
+    max-width: 480px;             
+}  
