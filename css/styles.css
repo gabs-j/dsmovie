@@ -72,11 +72,11 @@ nav a {
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;  /* padding com 2 valores: espaçamento interno em cima e em baixo */
+    padding: 40px 10px;  /* padding com 2 valores: espaçamento interno horizontal e vertical */
 }
 
 .dsmovie-card-description {
-    height: 220px;
+    height: 190px;
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ nav a {
 .dsmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    padding: 15px 0 10px 0 ;
     text-align: center;
 }
 
